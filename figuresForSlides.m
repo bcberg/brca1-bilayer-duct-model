@@ -70,7 +70,7 @@ set(gca,'YScale','log','FontSize',fontsize)
 xlabel('Time')
 ylabel('Cell number')
 legend('Location','eastoutside')
-exportgraphics(fig1,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-homeostasis-slides.pdf")
+% exportgraphics(fig1,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-homeostasis-slides.pdf")
 
 %% Demand production plot
 
@@ -121,7 +121,7 @@ xlabel('Time')
 ylabel('Cell number')
 legend([l1,l2,l3],'Location','eastoutside')
 set(gca,'YScale','log','FontSize',fontsize)
-exportgraphics(fig2,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-demandprod-slides.pdf")
+% exportgraphics(fig2,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-demandprod-slides.pdf")
 
 %% Premalignant plot
 
@@ -148,7 +148,7 @@ ylabel('Cell number')
 legend('Location','eastoutside')
 set(gca,'YScale','log','FontSize',fontsize)
 
-exportgraphics(fig3,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-premalignant-slides.pdf")
+% exportgraphics(fig3,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-premalignant-slides.pdf")
 
 %% Malignant plot
 
@@ -169,7 +169,7 @@ xlabel('Time')
 ylabel('Cell number')
 legend('Location','eastoutside')
 set(gca,'YScale','log','FontSize',fontsize)
-exportgraphics(fig4,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-malignant-slides.pdf")
+% exportgraphics(fig4,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-malignant-slides.pdf")
 
 %% Partial phase portrait: dBLI/dt
 
@@ -230,4 +230,4 @@ hold off;
 xlabel('Time','FontSize',10);     ylabel('$S_A(t)$ (gap formation)','FontSize',10);
 lg = legend([l1,l2,l3],"FontSize",fontsize);
 lg.Layout.Tile = 'east';
-exportgraphics(fig5,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-premaligDetail-slides.pdf")
+% exportgraphics(fig5,"C:\Users\bcber\OneDrive\Documents\1-UCI\Q3\Lowengrub Rotation\fig-premaligDetail-slides.pdf")

@@ -66,7 +66,7 @@ ylim([10^(-3),10^4])
 set(gca,'YScale','log','FontSize',fontsize)
 % xlabel('Time')
 % ylabel('Cell number')
-exportgraphics(fig1,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-homeostasis.pdf")
+% exportgraphics(fig1,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-homeostasis.pdf")
 
 %% Demand production plot
 
@@ -108,7 +108,7 @@ hold off
 xlim('tight')
 ylim([10^(-3),10^4])
 set(gca,'YScale','log','FontSize',fontsize)
-exportgraphics(fig2,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-demandprod.pdf")
+% exportgraphics(fig2,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-demandprod.pdf")
 
 %% Premalignant plot
 
@@ -130,7 +130,7 @@ hold off
 ylim([10^(-3),10^4])
 set(gca,'YScale','log','FontSize',fontsize)
 
-exportgraphics(fig3,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-premalignant.pdf")
+% exportgraphics(fig3,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-premalignant.pdf")
 
 %% Malignant plot
 
@@ -146,4 +146,4 @@ plot(tC/1.2,solC(:,3),'DisplayName','BLI','Color','k','LineWidth',BLIthickness)
 hold off
 ylim([10^(-3),10^4])
 set(gca,'YScale','log','FontSize',fontsize)
-exportgraphics(fig4,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-malignant.pdf")
+% exportgraphics(fig4,"C:\Users\bcber\OneDrive\Documents\MATLAB\LowengrubRotation\fig-malignant.pdf")
